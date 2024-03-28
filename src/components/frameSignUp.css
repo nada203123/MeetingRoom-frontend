@@ -1,0 +1,533 @@
+.get-started-now {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .name-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-9xs) 0;
+  }
+  .enter-your-credentials,
+  .name {
+    position: relative;
+    font-weight: 500;
+  }
+  .enter-your-credentials {
+    width: 372px;
+    font-size: var(--font-size-base);
+    display: none;
+    height: 26.3px;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .name {
+    font-size: var(--font-size-sm);
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .enter-name-label,
+  .google-icon-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .enter-name-label {
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+  }
+  .google-icon-frame {
+    width: 106px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 15px;
+    justify-content: center;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: var(--font-size-3xs);
+    color: var(--muted);
+  }
+  .frame-name,
+  .login-link {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .login-link {
+    height: 32px;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--muted);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  }
+  .frame-name {
+    flex: 1;
+    flex-direction: column;
+  }
+  .name1 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .frame-child,
+  .name-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .name-wrapper {
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+  }
+  .frame-child {
+    width: 104px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 15px;
+    justify-content: center;
+    padding: 0.20000000000000284px 0 0;
+    box-sizing: border-box;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: var(--font-size-3xs);
+    color: var(--muted);
+  }
+  .frame-container,
+  .frame-group {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-container {
+    height: 32px;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--muted);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  }
+  .frame-group {
+    height: 58px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .name2 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .frame-item,
+  .name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .name-container {
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+  }
+  .frame-item {
+    width: 51px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 15px;
+    justify-content: center;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: var(--font-size-3xs);
+    color: var(--muted);
+  }
+  .frame-div,
+  .frame-wrapper1 {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-wrapper1 {
+    height: 32px;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--muted);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  }
+  .frame-div {
+    height: 58px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .agree-terms-group-child {
+    width: 9px;
+    height: 9.8px;
+    position: relative;
+    border-radius: var(--br-11xs);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .agree-terms-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+  }
+  .terms-policy {
+    text-decoration: underline;
+  }
+  .i-agree-to-container {
+    position: relative;
+    font-size: var(--font-size-4xs);
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .agree-terms-group-parent,
+  .frame-name-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .agree-terms-group-parent {
+    flex-direction: row;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-7xs);
+  }
+  .frame-name-parent {
+    align-self: stretch;
+    flex: 1;
+    flex-direction: column;
+    gap: 19px 0;
+  }
+  .name3 {
+    align-self: stretch;
+    width: 43px;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+    display: none;
+  }
+  .name-frame {
+    height: 21px;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .name4 {
+    align-self: stretch;
+    width: 31px;
+    position: relative;
+    font-size: var(--font-size-3xs);
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--muted);
+    text-align: left;
+    display: none;
+  }
+  .name-wrapper1 {
+    height: 15px;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .frame-parent1,
+  .or-separator {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+  }
+  .or-separator {
+    flex: 1;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-darkolivegreen);
+    border: 1px solid var(--color-darkolivegreen);
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  }
+  .frame-parent1 {
+    height: 32px;
+    justify-content: center;
+  }
+  .login {
+    position: relative;
+    font-size: var(--font-size-smi);
+    font-family: var(--font-poppins);
+    color: var(--color-white);
+    text-align: left;
+    z-index: 1;
+  }
+  .frame-login {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-xs);
+    margin-top: -26px;
+  }
+  .frame-parent,
+  .instance-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .instance-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0 0 var(--padding-10xs);
+    background-color: var(--edf2f7);
+    height: 37px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    margin: 0;
+    height: 315px;
+    align-items: flex-start;
+    gap: 30px 0;
+  }
+  .agree-policy-text {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    border-top: 2px solid var(--color-whitesmoke);
+    box-sizing: border-box;
+    width: 400px;
+    height: 2px;
+  }
+  .or {
+    position: relative;
+    font-weight: 500;
+  }
+  .social-media-frames {
+    position: absolute;
+    top: 0;
+    left: 190px;
+    background-color: var(--color-white);
+    width: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .dividers {
+    height: 15.3px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .or-frame {
+    align-self: stretch;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs) 0 var(--padding-10xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-4xs);
+  }
+  .icons8-google-1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .sign-in-with {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .social-media-icons,
+  .social-media-icons1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .social-media-icons1 {
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs) 0 0;
+    gap: 0 10px;
+  }
+  .social-media-icons {
+    cursor: pointer;
+    border: 1px solid var(--muted);
+    padding: var(--padding-9xs) var(--padding-base) var(--padding-9xs)
+      var(--padding-lgi);
+    background-color: transparent;
+    border-radius: var(--br-3xs);
+    overflow: hidden;
+    justify-content: center;
+  }
+  .sign-in-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+  }
+  .icons8-apple-logo-1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .sign-in-with1 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .have-an-account-text {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs) 0 0;
+    gap: 0 10px;
+  }
+  .account-frame,
+  .divider-frame,
+  .have-an-account-text {
+    display: flex;
+    flex-direction: row;
+  }
+  .divider-frame {
+    cursor: pointer;
+    border: 1px solid var(--muted);
+    padding: var(--padding-9xs) var(--padding-xl) var(--padding-9xs)
+      var(--padding-4xl);
+    background-color: transparent;
+    border-radius: var(--br-3xs);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .account-frame {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 23px;
+  }
+  .have-an-account {
+    white-space: pre-wrap;
+  }
+  .sign-in {
+    color: var(--color-mediumblue);
+  }
+  .have-an-account-container {
+    position: relative;
+    font-weight: 500;
+  }
+  .frames-for-content,
+  .frames-for-content1,
+  .have-an-account-sign-in-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .frames-for-content,
+  .frames-for-content1 {
+    padding: 0 0 var(--padding-11xs);
+  }
+  .frames-for-content {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-3xs);
+  }
+  .name-input-parent,
+  .sign-in-with-apple {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .sign-in-with-apple {
+    align-self: stretch;
+    align-items: center;
+    padding: 0 var(--padding-12xs) 0 0;
+    gap: 23px 0;
+    font-size: var(--font-size-sm);
+  }
+  .name-input-parent {
+    flex: 1;
+    align-items: flex-start;
+    gap: var(--gap-40xl);
+    max-width: 100%;
+  }
+  .frame-wrapper,
+  .instance-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    flex: 1;
+  }
+  .instance-wrapper {
+    align-self: stretch;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  @media screen and (max-width: 750px) {
+    .get-started-now {
+      font-size: var(--font-size-7xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .get-started-now {
+      font-size: var(--font-size-lgi);
+    }
+    .account-frame {
+      flex-wrap: wrap;
+    }
+    .name-input-parent {
+      gap: var(--gap-40xl);
+    }
+  }

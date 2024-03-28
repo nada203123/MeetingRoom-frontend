@@ -1,0 +1,79 @@
+
+.App {
+    display: flex;
+    height: 97vh;
+    justify-content: center;
+    align-items: center;
+  
+  background-color: rgb(215, 227, 236);
+  
+  }
+
+  
+  fieldset {
+    display: flex;
+    width: 480px;
+    padding: 16px;
+    background-color: aliceblue;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);;
+    
+    justify-content: center;
+    align-items: center;
+
+  }
+  h2 {
+    font-size: 40px;
+    color: rgb(11, 11, 11);
+    font-family:Arial, Helvetica, sans-serif;
+    
+  }
+  fieldset p {
+    font-size: medium;
+    color: black;
+   
+  }
+  
+  
+  
+  
+  
+  input,
+  select {
+    border-radius: 4px;
+    border: 1px solid #767676;
+    height: 32px;
+    padding: 0 8px;
+  }
+  
+  .Field {
+    width: 70%;
+    padding-left: 8px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction:column;
+    margin-top:10px;
+  }
+  
+  
+  
+  
+  
+  button {
+    padding: 12px;
+    width: 240px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: rgb(184, 209, 229);
+    color: rgb(4, 3, 3);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    left: 30px;
+    
+    
+  }
+  
+  

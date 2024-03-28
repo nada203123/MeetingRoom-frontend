@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 105px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  .pagination a {
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    text-decoration: none; /* Remove underline */
+    color: #333;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #ddd;
+  }
